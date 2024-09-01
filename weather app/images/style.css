@@ -1,0 +1,92 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#cityInput,
+#cityName,
+#inputContainer,
+button {
+  margin: 3px;
+  padding: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+#weatherContainer {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 300px;
+width: 1300px;
+  border-radius: 10px;
+}
+#iconsContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  height: 350px;
+  width: 1200px;
+  background-color: rgba(16, 16, 16, 0.342);
+  backdrop-filter: blur;
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 10px;
+  color: aliceblue;
+}
+.icons {
+  display: inline-bock;
+  float: left;
+  height: 300px;
+  width: 190px;
+  margin: 20px;
+  border: 5px solid rgb(48, 47, 47);
+  border-radius: 10px;
+}
+.image {
+  height: 140px;
+  width: 100%;
+  backdrop-filter: blur;
+  -webkit-backdrop-filter: blur(50px);
+}
+.imgClass {
+  height: 140px;
+  width: 100%;
+}
+.weather {
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+.minValues {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  height: 25px;
+  width: 85px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.maxValues {
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  height: 25px;
+  width: 85px;
+  margin: 0;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+html {
+  background: url("https://64.media.tumblr.com/49b9a4a2ee86eacc141b0bc7ab4be9ac/tumblr_inline_p6bijo2ttG1ry36hn_540.gifv");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
